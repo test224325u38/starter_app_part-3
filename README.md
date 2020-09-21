@@ -29,13 +29,15 @@ iOS build require [generating signing credentials and a provisioning profile. ](
 * iOS development provisioning profile 
 * iOS development signing certificate.
 
-Once you have these you can create a security profile in Appflow Dashboard.
+
 
 You'll need an Apple Developer account (Individual or Organization). See
 [comparing
 memberships](https://developer.apple.com/support/compare-memberships/).
 
-Once, you have the apple developer account you can follow the guide on [Generating iOS credentials](https://ionicframework.com/docs/appflow/package/credentials#ios-credentials) 
+If you already have a apple developer account you can follow the guide on [Generating iOS credentials](https://ionicframework.com/docs/appflow/package/credentials#ios-credentials) 
+
+Once, you have the certificate and provisioning profile, you can create a security profile in Appflow Dashboard.
 
 ## Creating a security profile in Appflow
 
@@ -48,15 +50,18 @@ To upload your security credentials:
 2. Click the Add Profile button to create a new Profile. 
 
 ![Appflow](images/img_11.png)
-</widget>
+<br> <br>
 
 3. Enter a name for the security profile. (ex: development_iOS)
-
+<br> <br>
 ![Appflow](images/img_12.png)
-3. Both iOS and Android certifications can be used with one Profile, But for now let's only do iOS credentials. You'll need to choose the certificate files you generated and upload them as well as put in any passwords needed to access the credentials.
+<br> <br>
+4. Both iOS and Android certifications can be used with one Profile, But for now let's only do iOS credentials. You'll need to choose the certificate files you generated and upload them as well as put in any passwords needed to access the credentials.
+<br> <br>
 ![Appflow](images/img_13.png)
+<br> <br>
 
-Specifically for iOS, use the generated .p12 file for the certificate, the .mobileprovision file for the Provisioning Profile, and the password used to generate the .p12 file for the password.
+Specifically for iOS, use the generated `.p12` file for the certificate, the `.mobileprovision` file for the Provisioning Profile, and the password used to generate the .p12 file for the password.
 
 Once that Profile has been created, you can click the Edit button to remove and/or upload your iOS and Android certs.
 
@@ -73,4 +78,4 @@ All set to build for iOS using Appflow. You can trigger a new iOS native build j
 
 Once you click build, you should see the build logs for your iOS build from the instance.
 
-*** Note: Make sure the bundle ID in your app and the Apple developer certificate are matching ***
+***Note: Make sure the bundle ID in your app and the Apple developer certificate are matching***
