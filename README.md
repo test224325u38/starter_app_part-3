@@ -73,4 +73,4 @@ All set to build for iOS using Appflow. You can trigger a new iOS native build j
 
 Once you click build, you should see the build logs for your iOS build from the instance.
 
-*** Note: Make sure the bundle ID in your app and the Apple developer certificate are matching***
+*** Note: Make sure the bundle ID in your app and the Apple developer certificate are matching ***
