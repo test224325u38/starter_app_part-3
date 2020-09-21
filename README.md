@@ -47,13 +47,14 @@ To upload your security credentials:
 
 2. Click the Add Profile button to create a new Profile. 
 
-![Appflow](images/img_11)
+![Appflow](images/img_11.png)
+</widget>
 
 3. Enter a name for the security profile. (ex: development_iOS)
 
-![Appflow](images/img_12)
+![Appflow](images/img_12.png)
 3. Both iOS and Android certifications can be used with one Profile, But for now let's only do iOS credentials. You'll need to choose the certificate files you generated and upload them as well as put in any passwords needed to access the credentials.
-![Appflow](images/img_13)
+![Appflow](images/img_13.png)
 
 Specifically for iOS, use the generated .p12 file for the certificate, the .mobileprovision file for the Provisioning Profile, and the password used to generate the .p12 file for the password.
 
@@ -63,6 +64,13 @@ Once that Profile has been created, you can click the Edit button to remove and/
 
 All set to build for iOS using Appflow. You can trigger a new iOS native build just like you did for android earlier, and include the security profile you created.
 
-![Appflow](images/img_13)
+1. Select the commit
+2. Select Target Platform as iOS -Xcode 11
+3. Build Type Development
+4. select the Secuirty Profile you created earlier (ex:ios_development)
+
+![Appflow](images/img_14.png)
+
+Once you click build, you should see the build logs for your iOS build from the instance.
 
 *** Note: Make sure the bundle ID in your app and the Apple developer certificate are matching***

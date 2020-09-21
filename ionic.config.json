@@ -1,0 +1,8 @@
+{
+  "name": "starter_app_part-3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "3315997d"
+}
