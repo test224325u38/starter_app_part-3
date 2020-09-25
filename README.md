@@ -25,7 +25,7 @@ The sync command updates dependencies, and copies any web assets to your project
 
 ## Generating App Store Certificate and Provisioning Profile
 
-iOS build require [generating signing credentials and a provisioning profile. ](https://ionicframework.com/docs/appflow/package/credentials#android-credentials)Code Signing with a development type builds allows your app to run on device through Xcode. <br> You can create a security profile using:
+iOS builds require [generating signing credentials and a provisioning profile. ](https://ionicframework.com/docs/appflow/package/credentials#android-credentials)Code Signing with a development type builds allows your app to run on device through Xcode. <br> You can create a security profile using:
 * iOS development provisioning profile 
 * iOS development signing certificate.
 
