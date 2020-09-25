@@ -25,7 +25,7 @@ The sync command updates dependencies, and copies any web assets to your project
 
 ## Generating App Store Certificate and Provisioning Profile
 
-iOS build require [generating signing credentials and a provisioning profile. ](https://ionicframework.com/docs/appflow/package/credentials#android-credentials)Code Signing with a development type builds allows your app to run on device through Xcode. <br> You can create a secuirty profile using:
+iOS build require [generating signing credentials and a provisioning profile. ](https://ionicframework.com/docs/appflow/package/credentials#android-credentials)Code Signing with a development type builds allows your app to run on device through Xcode. <br> You can create a security profile using:
 * iOS development provisioning profile 
 * iOS development signing certificate.
 
@@ -72,7 +72,7 @@ All set to build for iOS using Appflow. You can trigger a new iOS native build j
 1. Select the commit
 2. Select Target Platform as iOS -Xcode 11
 3. Build Type Development
-4. select the Secuirty Profile you created earlier (ex:ios_development)
+4. select the Security Profile you created earlier (ex:ios_development)
 
 ![Appflow](images/img_14.png)
 
