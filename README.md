@@ -6,7 +6,7 @@ This part -3 of the exploring Appflow exercise consists of building a developmen
     1. Adding iOS to starter project
     2. Generating App Store Certificate and Provisioning Profile
     3. Creating a security profile in Appflow
-    4. iOS native build in Appflow
+    4. iOS native build in Appflow 
     
     
 ## Adding iOS to starter project
